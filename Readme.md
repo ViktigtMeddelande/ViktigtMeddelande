@@ -1,6 +1,6 @@
-# Viktiga meddelanden tillgängliga på Internet
+# Projekt "Viktigt meddelande"
 
-Projekt "Viktigt meddelande".
+### Viktiga meddelanden tillgängliga på Internet
 
 Vid Hesa-Fredrik-incidenten i Stockholm 2017-07-09, visade det sig att de internetbaserade systemen som finns idag, inte fungerade.
 
@@ -82,7 +82,7 @@ På avsändarsidan finns rutiner, hårdvara och program för att framställa med
 <a name="specifikation-av-arbete"></a>
 ## Specifikation av arbete
 
-* Definiera ett eller flera medieformat tillsammans med signaturer. Dvs någon typ av containerformat, eller som enklast såsom OpenPGP gör det med "-----BEGIN PGP SIGNED MESSAGE-----" osv
+* Definiera ett eller flera medieformat tillsammans med signaturer. Dvs någon typ av containerformat, eller som enklast såsom OpenPGP gör det med ```-----BEGIN PGP SIGNED MESSAGE-----``` osv
 
 * Implementera/anpassa kod för att skapa ett meddelande
 
@@ -128,5 +128,5 @@ På avsändarsidan:
 * NÄR ett format kan innehålla meddelande och signaturer
 * OCH signaturer kan uttryckas som att vara i unison, som m av n och som kontrasignaturer
 * OCH formatet inte ger grogrund för meddelanden att vara mångtydiga hur de kommer att visas
-* OCH formatet inte är överdrivet komplext, vilket hade kunna öppna för exploits
+* OCH formatet inte är överdrivet komplext, vilket hade kunnat öppna för exploits
 * SÅ är det ett ganska bra format
