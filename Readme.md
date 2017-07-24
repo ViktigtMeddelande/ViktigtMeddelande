@@ -127,6 +127,6 @@ På avsändarsidan:
 
 * NÄR ett format kan innehålla meddelande och signaturer
 * OCH signaturer kan uttryckas som att vara i unison, som m av n och som kontrasignaturer
-* OCH meddelanden inte ger grogrund att vara mångtydiga hur de kommer att visas
-* OCH det inte är överdrivet komplext, vilket hade kunna öppna för exploits
+* OCH formatet inte ger grogrund för meddelanden att vara mångtydiga hur de kommer att visas
+* OCH formatet inte är överdrivet komplext, vilket hade kunna öppna för exploits
 * SÅ är det ett ganska bra format
