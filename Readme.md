@@ -12,6 +12,14 @@ När det blir kriser, eller bara allmän förvirring, är det viktigt att korrek
 
 Det vore bra om man kunde ta fram system för viktiga meddelanden som faktiskt fungerar över Internet, med digitala signaturer. Vi skulle vilja medverka till detta genom att ta fram en systemöversikt, knäcka ett antal designfrågor och framför allt koda, anpassa och framställa komponenter som kan göra detta. Eller bara helt enkelt inspirera. 
 
+Här ett meddelande på Twitter 2017-07-21 från Krisinformation:
+
+![VMA ej tillgängligt](./vma-notiser.png)
+
+Denna tweet indikerar att viktiga meddelande inte fungerar i appen. Eller så indikerar den kanske att twitterkontot blivit hackat. Inga indikationer på det senare har framkommit, men det visar på sårbarheten i systemen.
+
+# Innehåll
+
 <!-- MarkdownTOC autolink="true" autoanchor="true"-->
 
 - [Introduktion](#introduktion)
@@ -134,11 +142,5 @@ På avsändarsidan:
 * NÄR ett format kan innehålla meddelande och signaturer
 * OCH signaturer kan uttryckas som att vara i unison, som m av n och som kontrasignaturer
 * OCH meddelanden inte ger grogrund att vara mångtydiga hur de kommer att visas
-* OCH det inte är överdrivet komplext, vilket hade
-*  kunna öppna för exploits
+* OCH det inte är överdrivet komplext, vilket hade kunna öppna för exploits
 * SÅ är det ett ganska bra format
-
-
-
-
-
