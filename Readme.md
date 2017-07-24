@@ -22,7 +22,6 @@ Denna tweet indikerar att viktiga meddelande inte fungerar i appen. Eller så in
 
 <!-- MarkdownTOC autolink="true" autoanchor="true"-->
 
-- [Introduktion](#introduktion)
 - [Framtidsbild](#framtidsbild)
 - [Kort sammanfattning av lösning](#kort-sammanfattning-av-l%C3%B6sning)
 - [Fördjupning](#f%C3%B6rdjupning)
@@ -34,19 +33,6 @@ Denna tweet indikerar att viktiga meddelande inte fungerar i appen. Eller så in
 		- [Krav på format](#krav-p%C3%A5-format)
 
 <!-- /MarkdownTOC -->
-
-<a name="introduktion"></a>
-# Introduktion
-
-När det blir kriser, eller bara allmän förvirring, är det viktigt att korrekt information kommer fram.
-
-Det vore bra om man kunde ta fram system för viktiga meddelanden som faktiskt fungerar över Internet, med digitala signaturer. Vi skulle vilja medverka till detta genom att ta fram en systemöversikt, knäcka ett antal designfrågor och framför allt koda, anpassa och framställa komponenter som kan göra detta. Eller bara helt enkelt inspirera.
-
-Vid Hesa-Fredrik-incidenten i Stockholm 2017-07-09, visade det sig att de internetbaserade systemen som finns idag, inte fungerade.
-
-Ett falsklarm gick ut och webbsajter som skulle förse oss med information var inte tillgängliga. Detta berodde kanske inte ens på en attack utan bara på en överbelastning. Vad gäller attacker är datorer och mobiltelefoner idag så lätta att hacka att det är svårt att skydda en enskild resurs mot en koncentrerad attack.  
-
-Att skicka ut viktiga meddelanden från en enskild Internet-resurs som t ex en webbsajt har därför visat sig att inte vara tillförlitligt nog. Förmodligen det enda sättet att kommunicera tillförlitligt över Internet idag är distribuerat (genom flera kanaler) och använda redundanta digitala signaturer.
 
 <a name="framtidsbild"></a>
 # Framtidsbild
