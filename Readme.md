@@ -1,7 +1,5 @@
 # Projekt "Viktigt meddelande"
 
-Jörgen Modin, jorgen@webworks.se
-
 ### Viktiga meddelanden tillgängliga på Internet
 
 Vid Hesa-Fredrik-incidenten i Stockholm 2017-07-09, visade det sig att de internetbaserade systemen som finns idag, inte fungerade.
