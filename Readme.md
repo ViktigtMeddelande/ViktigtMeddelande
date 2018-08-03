@@ -67,7 +67,17 @@ Ett tredje sätt är att komplettera med HTML, och definiera vilka element och s
 
 Vilka format man än använder, så ska de kunna ha en signatur med sig. Vi behöver ta reda på vilka format som kan vara bra för att associera signaturen med meddelandet. OpenPGP kan vara en inspiration, och också olika containerformat.
 
-En fråga är hur multisignaturer ska uttryckas. För OpenPGP kan kanske den här texten vara vägledande [https://lists.gnupg.org/pipermail/gnupg-users/2013-July/047118.html](https://lists.gnupg.org/pipermail/gnupg-users/2013-July/047118.html)
+En fråga är hur multisignaturer ska uttryckas. Vad gäller containerformat så finns ett format godkänt av EU som heter ASiC det är en fil i form av ett zip-arkiv, i vilken kan man kan lägga innehåll av godtyckling MIME-typ, och signaturer läggs separat (detached). Detta innebär att det är lätt att ha flera sigaturer, och signaturerna påverkar inte filens hash (vilket de gör med t ex PAdES-formatet, där signaturerna läggs i mitten av PDF-dokumentets fil)
+
+EU har definierat fyra format:
+
+* <a href="https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/e-Signature+standards#e-Signaturestandards-XAdES(XMLAdvancedElectronicSignatures)BaselineProfile"> XAdES (XML Advanced Electronic Signatures) Baseline Profile></a>
+* <a href="https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/e-Signature+standards#e-Signaturestandards-CAdES(CMSAdvancedElectronicSignature)BaselineProfile"> CAdES (CMS Advanced Electronic Signature) Baseline Profile</a>
+* <a href="https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/e-Signature+standards#e-Signaturestandards-PAdES(PDFAdvancedElectronicSignature)BaselineProfile"> PAdES (PDF Advanced Electronic Signature) Baseline Profile</a>
+* <a href="https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/e-Signature+standards#e-Signaturestandards-ASiC(AssociatedSignatureContainer)BaselineProfile"> ASiC (Associated Signature Container) Baseline Profile</a>
+
+
+För OpenPGP kan kanske den här texten vara vägledande [https://lists.gnupg.org/pipermail/gnupg-users/2013-July/047118.html](https://lists.gnupg.org/pipermail/gnupg-users/2013-July/047118.html)
 
 
 <a name="system%C3%B6versikt"></a>
